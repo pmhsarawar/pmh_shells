@@ -1,1 +1,1 @@
-echo "This is global on Shell"
+am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
