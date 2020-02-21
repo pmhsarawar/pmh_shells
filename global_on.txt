@@ -1,5 +1,5 @@
 sleep 1 > /dev/null 2>&1
-cp /storage/emulated/0/Android/data/a.a.a/files/global/mod/game_patch_0.16.5.11551.pak /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.5.11551.pak
+cp /storage/emulated/0/Android/data/a.a.a/files/m/m/pmh.0 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.5.11551.pak
 sleep 1 > /dev/null 2>&1
 am force-stop com.tencent.ig > /dev/null 2>&1
 am force-stop com.vng.pubgmobile > /dev/null 2>&1
