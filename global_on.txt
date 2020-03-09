@@ -1,15 +1,14 @@
 sleep 1 > /dev/null 2>&1
-cp -R /storage/emulated/0/Android/data/a.a.a/files/1/3/5/1.so /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11552.pak
-cp -R /storage/emulated/0/Android/data/a.a.a/files/1/3/5/2.so /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.5.11554.pak
+cp -R /storage/emulated/0/Android/data/a.a.a/files/1/3/5/1.so /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak
 sleep 1 > /dev/null 2>&1
 am force-stop com.tencent.ig > /dev/null 2>&1
 am force-stop com.vng.pubgmobile > /dev/null 2>&1
-am force-stop com.pubg.krmobile > /dev/null 2>&1
+am force-stop com.tencent.ig > /dev/null 2>&1
 sleep 2 > /dev/null 2>&1
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
-sleep 5 > /dev/null 2>&1
+sleep 2 > /dev/null 2>&1
 rm -rf /storage/emulated/.backups/*
-rm -rf /storage/emulated/0/MidasOversea//* &> /dev/null 2>&1
+rm -rf /storage/emulated/0/MidasOversea/* &> /dev/null 2>&1
 rm -rf /storage/emulated/0/Tencent/* > /dev/null 2>&1
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache > /dev/null 2>&1
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json > /dev/null 2>&1
