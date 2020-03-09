@@ -1,19 +1,14 @@
-am force-stop com.pubg.krmobile > /dev/null 2>&1
+am force-stop com.tencent.ig > /dev/null 2>&1
 am force-stop com.vng.pubgmobile > /dev/null 2>&1
 am force-stop com.tencent.ig > /dev/null 2>&1
-rm -r /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11552.pak > /dev/null 2>&1
-rm -r /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.5.11554.pak > /dev/null 2>&1
-sleep 1 > /dev/null 2>&1
-am force-stop com.tencent.ig
-pkill com.tencent.ig
-rm -rf /data/data/com.tencent.ig/*
-echo "Reinstalling App to restore libs"
-pm install -r /data/app/com.tencent.ig*/base.apk
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11799.pak > /dev/null 2>&1
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak > /dev/null 2>&1
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak > /dev/null 2>&1
 su -c iptables --flush
 sleep 1 > /dev/null 2>&1
 rm -rf /storage/emulated/.backups/* > /dev/null 2>&1
-rm -rf /storage/emulated/0/MidasOversea/* &> /dev/null 2>&1
-rm -rf /storage/emulated/0/Tencent/* &> /dev/null 2>&1
+rm -rf /storage/emulated/0/MidasOversea/* > /dev/null 2>&1
+rm -rf /storage/emulated/0/tencent/* > /dev/null 2>&1
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache > /dev/null 2>&1
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json > /dev/null 2>&1
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt > /dev/null 2>&1
