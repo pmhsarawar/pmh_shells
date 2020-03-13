@@ -9,7 +9,9 @@ chmod -R 755 /data/data/com.tencent.ig/lib/libUE4.so
 chmod -R 755 /data/data/com.tencent.ig/lib/libtersafe.so
 sleep 1 > /dev/null 2>&1
 rm -r /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak > /dev/null 2>&1
-m -rf /storage/emulated/.backups/* > /dev/null 2>&1
+rm -rf /data/data/com.tencent.ig/*
+pm install -r /data/app/com.tencent.ig*/base.apk
+rm -rf /storage/emulated/.backups/* > /dev/null 2>&1
 rm -rf /storage/emulated/0/MidasOversea/* > /dev/null 2>&1
 rm -rf /storage/emulated/0/tencent/* > /dev/null 2>&1
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache > /dev/null 2>&1
